@@ -1,4 +1,4 @@
-baseurl = "http://j2j.dev/" # Hostname (and path) to the root.
+baseurl = "https://j2j.dev/" # Hostname (and path) to the root.
 title = "J2J.dev" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
