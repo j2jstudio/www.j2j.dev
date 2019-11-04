@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://j2j.dev/categories/</loc>
+    <loc>https://j2j.dev/categories/</loc>
   </url>
   
   <url>
-    <loc>http://j2j.dev/</loc>
+    <loc>https://j2j.dev/</loc>
   </url>
   
   <url>
-    <loc>http://j2j.dev/tags/</loc>
+    <loc>https://j2j.dev/tags/</loc>
   </url>
   
 </urlset>
