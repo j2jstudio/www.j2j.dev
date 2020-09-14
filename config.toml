@@ -15,13 +15,13 @@ disqusShortname = "" # Enable or disable Disqus.
 
 [params] # theme parameters
     author = "J2J.dev" # Author's name.
-    info = "J2J 工作室, 细心打磨每一个产品" # Author's job title or info.
-    description = "J2J 工作室, 细心打磨每一个产品。" # Site description.
+    info = "J2J studio, Be patient and focus on product dev." # Author's job title or info.
+    description = "J2J studio, Be patient and focus on product dev." # Site description.
     keywords = "Full Stack ,全栈开发,iOS,Android," # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "Enter a text here." # Add footer content
-    fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    #fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
     fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
     # Whether you want to hide copyright and credits in the footer.
@@ -38,7 +38,7 @@ disqusShortname = "" # Enable or disable Disqus.
     rtl = false
 
     # Bottom sns share
-    snsShare = true # new add
+    snsShare = false # new add
     # Popular sns share
     # if you want add sns. please message!
     enableTwitterShare = true  # new add
