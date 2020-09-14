@@ -3,11 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://j2j.dev/categories/</loc>
+    <loc>https://j2j.dev/ssiptv/help/</loc>
+    <lastmod>2020-09-10T18:50:35+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://j2j.dev/</loc>
+    <lastmod>2020-09-10T18:50:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://j2j.dev/ssiptv/privacy/</loc>
+    <lastmod>2020-09-10T18:50:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://j2j.dev/ssiptv/app/</loc>
+    <lastmod>2020-09-10T18:50:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://j2j.dev/ssiptv/</loc>
+    <lastmod>2020-09-10T18:50:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://j2j.dev/categories/</loc>
   </url>
   
   <url>
