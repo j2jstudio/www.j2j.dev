@@ -6,7 +6,7 @@ type: single
 layout: mylayout
 ---
 
-Privacy Policy
+# Privacy Policy
 
 This Privacy Policy explains how personal data might be collected from users of Simple IPTV - from now on referred to as the app - how they are stored, processed and used by the app.
 

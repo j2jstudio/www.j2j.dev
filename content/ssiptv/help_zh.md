@@ -1,12 +1,12 @@
 ---
-title: "Help"
+title: "帮助"
 date: 2020-09-10T18:50:35+08:00
 draft: false
 type: single
 layout: i18n_redirect
 ---
 
-# Help 
+# 帮助 
 
 Simple Smart IPTV is one of the most popular Smart TV applications in CIS, South America and Europe. SS IPTV has become the first app of LG Smart World, which provided opportunity of IPTV viewing for its users. This app was highly rated by jury of LG Smart TV Apps Contest 2012 and got the prize in the main nomination - The Best App. 
 
