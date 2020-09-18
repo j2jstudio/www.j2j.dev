@@ -6,18 +6,14 @@
     <description>Recent content on J2J.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2020 18:50:35 +0800</lastBuildDate>
-    
-	<atom:link href="https://j2j.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 10 Sep 2020 18:50:35 +0800</lastBuildDate><atom:link href="https://j2j.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Help</title>
       <link>https://j2j.dev/ssiptv/help/</link>
       <pubDate>Thu, 10 Sep 2020 18:50:35 +0800</pubDate>
       
       <guid>https://j2j.dev/ssiptv/help/</guid>
-      <description>Simple Smart IPTV is one of the most popular Smart TV applications in CIS, South America and Europe. SS IPTV has become the first app of LG Smart World, which provided opportunity of IPTV viewing for its users. This app was highly rated by jury of LG Smart TV Apps Contest 2012 and got the prize in the main nomination - The Best App.
+      <description>Help Simple Smart IPTV is one of the most popular Smart TV applications in CIS, South America and Europe. SS IPTV has become the first app of LG Smart World, which provided opportunity of IPTV viewing for its users. This app was highly rated by jury of LG Smart TV Apps Contest 2012 and got the prize in the main nomination - The Best App.
 SS IPTV today is dynamically evolving application, the center of entertainments inside your Smart TV.</description>
     </item>
     
@@ -27,8 +23,7 @@ SS IPTV today is dynamically evolving application, the center of entertainments 
       <pubDate>Thu, 10 Sep 2020 18:50:35 +0800</pubDate>
       
       <guid>https://j2j.dev/ssiptv/privacy/</guid>
-      <description>Privacy Policy
-This Privacy Policy explains how personal data might be collected from users of Simple IPTV - from now on referred to as the app - how they are stored, processed and used by the app.
+      <description>Privacy Policy This Privacy Policy explains how personal data might be collected from users of Simple IPTV - from now on referred to as the app - how they are stored, processed and used by the app.
 Personal Information The app does not collect, store or share any personally identifiable information about you.
 Anonymous Usage Information While you are interacting with the app, anonymous information regarding your device might be collected using Google Firebase, in accordance with their Privacy Policy, for the purpose of crash reporting and usage monitoring related to the app.</description>
     </item>
@@ -40,6 +35,20 @@ Anonymous Usage Information While you are interacting with the app, anonymous in
       
       <guid>https://j2j.dev/ssiptv/app/</guid>
       <description> ssIPTV  </description>
+    </item>
+    
+    <item>
+      <title>帮助</title>
+      <link>https://j2j.dev/ssiptv/help_zh/</link>
+      <pubDate>Thu, 10 Sep 2020 18:50:35 +0800</pubDate>
+      
+      <guid>https://j2j.dev/ssiptv/help_zh/</guid>
+      <description>帮助 什么是IPTV 络协议电视（英文：Internet Protocol Television，缩写：IPTV）是宽带电视的一种。IPTV是用宽带网络作为介质发送电视信息的一种系统，将广播节目透过宽带上的网际协议（Internet Protocol, IP）向订户传递数字电视服务。由于需要使用网络，IPTV服务供应商经常会一并提供连接互联网及IP电话等相关服务，也可称为“三重服务”或“三合一服务”（Triple Play）。IPTV是数字电视的一种，因此普通电视机需要配合相应的机顶盒接收信道，也因此供应商通常会向客户同时提供随选视频服务。虽透过宽带网络及网际协议，但IPTV不一定透过互联网，为传输质量会通过局域网传输。
+M3U M3U是一种播放多媒体列表的文件格式，它的设计初衷是为了播放音频文件，比如MP3，但是越来越多的软件现在用来播放视频文件列表，M3U也可以指定在线流媒体音频源。很多播放器和软件都支持M3U文件格式。
+M3U文件的作用通常是创建指向在线流媒体的播放列表，创建的文件可以轻松访问流媒体。M3U文件通常作为网站的下载资源、通过email收发，并可以收听网络电台。
+如何获取M3U IPTV播放列表 参考网站：
+ https://github.com/imDazui/Tvlist-awesome-m3u-m3u8  打开有m3u播放列表的网页，可点击 导航栏 -&amp;gt; 检测m3u按钮 帮助识别播放列表。
+如何创建播放列表  获取播放列表 在APP中点击 ➕号 ，输入m3u地址 ，完成添加  </description>
     </item>
     
   </channel>

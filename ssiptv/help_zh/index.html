@@ -13,16 +13,16 @@
     <meta property="og:title" content="J2J.dev">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://j2j.dev/ssiptv/help/">
+    <meta property="og:url" content="https://j2j.dev/ssiptv/help_zh/">
     <meta property="og:image" content="https://j2j.dev/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://j2j.dev/ssiptv/help/">
+    <meta name="twitter:site" content="https://j2j.dev/ssiptv/help_zh/">
     <meta name="twitter:image" content="https://j2j.dev/">
 
-    <base href="https://j2j.dev/ssiptv/help/">
+    <base href="https://j2j.dev/ssiptv/help_zh/">
     <title>J2J.dev</title>
 
-    <link rel="canonical" href="https://j2j.dev/ssiptv/help/">
+    <link rel="canonical" href="https://j2j.dev/ssiptv/help_zh/">
     
     
     <link rel="stylesheet" href="https://j2j.dev/css/normalize.min.css">
@@ -78,29 +78,23 @@
       
     </header>
 
-    <h1 id="help">Help</h1>
-<p>Simple Smart IPTV is one of the most popular Smart TV applications in CIS, South America and Europe. SS IPTV has become the first app of LG Smart World, which provided opportunity of IPTV viewing for its users. This app was highly rated by jury of LG Smart TV Apps Contest 2012 and got the prize in the main nomination - The Best App.</p>
-<p>SS IPTV today is dynamically evolving application, the center of entertainments inside your Smart TV. IPTV of hundreds of content operators, broadcast channels, videos from social networks, cloud services and video hostings – all of these are available for our users through the only one app&rsquo;s features!</p>
-<p>At the same time we continuously work making SS IPTV better! We thoroughly research all the concealed possibilities of your TVs and embody them in new useful features, frequently without any lookalikes on the market!</p>
-<h2 id="how-to-upload-playlist">How to upload playlist</h2>
-<h2 id="about-m3u">About M3U</h2>
-<p>Playlist in M3U is ordinary text document which is encoded in UTF-8. It can be edited by application Notepad from accessories Windows. Any M3U file starts with #EXTM3U text identifier in the first line. The first line of the pair always starts form #EXTINF: text identifier. The second line of the pair containes only uri (link) of content.</p>
-<p>Let&rsquo;s consider this example:</p>
-<p>#EXTM3U</p>
-<p>#EXTINF:0 tvg-name=&ldquo;BBC&rdquo; audio-track=&ldquo;eng&rdquo; tvg-logo=&ldquo;<a href="http://mylogos.domain/BBC.png%22,">http://mylogos.domain/BBC.png&quot;,</a> BBC World
-<a href="http://server.name/stream/to/video2">http://server.name/stream/to/video2</a>
-#EXTINF:0 tvg-name=&ldquo;CNN&rdquo; audio-track=&ldquo;rus&rdquo;, CNN International
-<a href="http://server.name/stream/to/video2">http://server.name/stream/to/video2</a>
-#EXTINF:0, Arirang
-<a href="http://server.name/stream/to/video3">http://server.name/stream/to/video3</a></p>
-<p>As you can see from this example the M3U file represents the set of pairs of lines which describes the source of signal (link) and parameters. In this example there are 3 channels: BBC World, CNN International and Arirang.</p>
-<p>The first line starts with #EXTINF: (duration) (attributes), (channel title). Required params are: duration and channel title. In case of live TV links the duaration has always to be 0 or -1.</p>
-<p>Attributes are not requred params, this is the list of supported attributes:</p>
-<p>tvg-shift - TV guide time shifting
-tvg-name - TV guide identifier
-tvg-logo -  channel&rsquo;s logo (url)
-audio-track - Audio track definition of this channel, if it&rsquo;s supported by stream. Write language codes in ISO 639-2 standard, you may use several codes separated by comma (e.g.: &ldquo;eng, rus, deu&rdquo;). The first item in the list will be defined as default.
-aspect-ratio - defines aspec ratio (may be not available for some TV models). Available values: 16:9, 3:2, 4:3, 1,85:1, 2,39:1</p>
+    <h1 id="帮助">帮助</h1>
+<h2 id="什么是iptv">什么是IPTV</h2>
+<p>络协议电视（英文：Internet Protocol Television，缩写：IPTV）是宽带电视的一种。IPTV是用宽带网络作为介质发送电视信息的一种系统，将广播节目透过宽带上的网际协议（Internet Protocol, IP）向订户传递数字电视服务。由于需要使用网络，IPTV服务供应商经常会一并提供连接互联网及IP电话等相关服务，也可称为“三重服务”或“三合一服务”（Triple Play）。IPTV是数字电视的一种，因此普通电视机需要配合相应的机顶盒接收信道，也因此供应商通常会向客户同时提供随选视频服务。虽透过宽带网络及网际协议，但IPTV不一定透过互联网，为传输质量会通过局域网传输。</p>
+<h2 id="m3u">M3U</h2>
+<p>M3U是一种播放多媒体列表的文件格式，它的设计初衷是为了播放音频文件，比如MP3，但是越来越多的软件现在用来播放视频文件列表，M3U也可以指定在线流媒体音频源。很多播放器和软件都支持M3U文件格式。</p>
+<p>M3U文件的作用通常是创建指向在线流媒体的播放列表，创建的文件可以轻松访问流媒体。M3U文件通常作为网站的下载资源、通过email收发，并可以收听网络电台。</p>
+<h2 id="如何获取m3u-iptv播放列表">如何获取M3U IPTV播放列表</h2>
+<p>参考网站：</p>
+<ul>
+<li><a href="https://github.com/imDazui/Tvlist-awesome-m3u-m3u8">https://github.com/imDazui/Tvlist-awesome-m3u-m3u8</a></li>
+</ul>
+<p>打开有m3u播放列表的网页，可点击 导航栏 -&gt; 检测m3u按钮 帮助识别播放列表。</p>
+<h2 id="如何创建播放列表">如何创建播放列表</h2>
+<ol>
+<li>获取播放列表</li>
+<li>在APP中点击 ➕号 ，输入m3u地址 ，完成添加</li>
+</ol>
 
   </article>
 
