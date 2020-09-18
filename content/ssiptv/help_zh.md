@@ -8,38 +8,26 @@ layout: i18n_redirect
 
 # 帮助 
 
-Simple Smart IPTV is one of the most popular Smart TV applications in CIS, South America and Europe. SS IPTV has become the first app of LG Smart World, which provided opportunity of IPTV viewing for its users. This app was highly rated by jury of LG Smart TV Apps Contest 2012 and got the prize in the main nomination - The Best App. 
+## 什么是IPTV
 
-SS IPTV today is dynamically evolving application, the center of entertainments inside your Smart TV. IPTV of hundreds of content operators, broadcast channels, videos from social networks, cloud services and video hostings – all of these are available for our users through the only one app's features!
+络协议电视（英文：Internet Protocol Television，缩写：IPTV）是宽带电视的一种。IPTV是用宽带网络作为介质发送电视信息的一种系统，将广播节目透过宽带上的网际协议（Internet Protocol, IP）向订户传递数字电视服务。由于需要使用网络，IPTV服务供应商经常会一并提供连接互联网及IP电话等相关服务，也可称为“三重服务”或“三合一服务”（Triple Play）。IPTV是数字电视的一种，因此普通电视机需要配合相应的机顶盒接收信道，也因此供应商通常会向客户同时提供随选视频服务。虽透过宽带网络及网际协议，但IPTV不一定透过互联网，为传输质量会通过局域网传输。
 
-At the same time we continuously work making SS IPTV better! We thoroughly research all the concealed possibilities of your TVs and embody them in new useful features, frequently without any lookalikes on the market!
+## M3U
 
-## How to upload playlist
+M3U是一种播放多媒体列表的文件格式，它的设计初衷是为了播放音频文件，比如MP3，但是越来越多的软件现在用来播放视频文件列表，M3U也可以指定在线流媒体音频源。很多播放器和软件都支持M3U文件格式。
+
+M3U文件的作用通常是创建指向在线流媒体的播放列表，创建的文件可以轻松访问流媒体。M3U文件通常作为网站的下载资源、通过email收发，并可以收听网络电台。
+
+## 如何获取M3U IPTV播放列表
+
+参考网站：
+
+* [https://github.com/imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)
 
 
-## About M3U
+打开有m3u播放列表的网页，可点击 导航栏 -> 检测m3u按钮 帮助识别播放列表。
 
-Playlist in M3U is ordinary text document which is encoded in UTF-8. It can be edited by application Notepad from accessories Windows. Any M3U file starts with #EXTM3U text identifier in the first line. The first line of the pair always starts form #EXTINF: text identifier. The second line of the pair containes only uri (link) of content.
+## 如何创建播放列表
 
-Let's consider this example:
-
-#EXTM3U
-
-#EXTINF:0 tvg-name="BBC" audio-track="eng" tvg-logo="http://mylogos.domain/BBC.png", BBC World
-http://server.name/stream/to/video2
-#EXTINF:0 tvg-name="CNN" audio-track="rus", CNN International
-http://server.name/stream/to/video2
-#EXTINF:0, Arirang
-http://server.name/stream/to/video3
-
-As you can see from this example the M3U file represents the set of pairs of lines which describes the source of signal (link) and parameters. In this example there are 3 channels: BBC World, CNN International and Arirang.
-
-The first line starts with #EXTINF: (duration) (attributes), (channel title). Required params are: duration and channel title. In case of live TV links the duaration has always to be 0 or -1.
-
-Attributes are not requred params, this is the list of supported attributes:
-
-tvg-shift - TV guide time shifting
-tvg-name - TV guide identifier
-tvg-logo -  channel's logo (url)
-audio-track - Audio track definition of this channel, if it's supported by stream. Write language codes in ISO 639-2 standard, you may use several codes separated by comma (e.g.: "eng, rus, deu"). The first item in the list will be defined as default.
-aspect-ratio - defines aspec ratio (may be not available for some TV models). Available values: 16:9, 3:2, 4:3, 1,85:1, 2,39:1
+1. 获取播放列表
+2. 在APP中点击 ➕号 ，输入m3u地址 ，完成添加
